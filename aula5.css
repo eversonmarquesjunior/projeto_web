@@ -1,0 +1,113 @@
+* {
+  margin: 0px 5px;
+  padding: 0px;
+  /* font-family: 'Patrick Hand SC', cursive; */
+}
+
+body {
+  background-color: #dadada;
+}
+
+.site {
+  background-color: #ffffff;
+  /* Centralizando divs/elementos */
+  width: 1000px;
+  margin: 0px auto;
+  padding: 50px 0px;
+}
+
+/* A div conteúdo dentro da div site */
+.site .principal {
+  /* background-color: grey; */
+  min-height: 300px;
+  margin: 15px 0px;
+  padding: 5px 50px;
+  /* border: solid 2px #0099ff; */
+
+  /* border-color: green;
+  border-width: 5px;
+  border-style: dashed;*/
+}
+
+#paragrafo{
+  border: solid 2px;
+}
+
+#img {
+  max-width: 60%;
+}
+
+.site .topo, .rodape {
+  font-family: 'Righteous', cursive;
+  text-align: center;
+}
+
+.site .menu, .principal {
+  font-family: 'Patrick Hand SC', cursive;
+}
+
+.menu {
+  background-color: #dadada;
+  margin-top: 15px;
+}
+
+.menu a {
+  text-decoration: none;
+  /* Transforma os itens em blocos */
+  display: inline-block;
+  padding: 10px 15px;
+  color: #0099ff;
+}
+
+.menu ul {
+  /* Remove os pontos da lista */
+  list-style-type: none;
+}
+
+.menu ul li {
+  /* Exibindo os itens da lista em linha */
+  display: inline-block;
+}
+
+.menu a:hover {
+  background-color: #000000;
+  color: #0099ff;
+}
+
+.botao {
+  font-size: 20px;
+  /* Remove a underline de um link */
+  text-decoration: none;
+  padding: 5px 5px;
+  display: inline-block;
+  border-radius: 5px;
+  color: #000000;
+}
+
+.botao-azul {
+  background-color: #b3e0ff;
+  border: solid 2px #005c99;
+}
+
+/* A propriedade seletor:hover é aplicada quando passamos o mouse em cima do elemento */
+.botao-azul:hover{
+  background-color: #005c99;
+}
+
+.botao-verde {
+  background-color: #b3ffb3;
+  border: solid 2px #00b300;
+}
+
+.botao-verde:hover{
+  background-color: #00b300;
+}
+
+.botao-vermelho {
+  background-color: #ff3333;
+  border: solid 2px #b30000;
+}
+
+.botao-vermelho:hover{
+  background-color: #b30000;
+}
